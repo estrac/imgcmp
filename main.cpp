@@ -124,7 +124,7 @@ int main(int argc, char** argv) {
     if(!silent){
         std::cout << (return_value == 0 ? "MATCH" : "MISMATCH DETECTED") << std::endl;
         if(verbose){
-            std::cout << "Different Pixels: " << float(100*wrong_pixels)/(w1*h1) << "%" << std::endl;
+            std::cout << "Different Pixels: " << wrong_pixels << " = " << float(100*wrong_pixels)/(w1*h1) << "%" << std::endl;
         }
     }
 
