@@ -208,7 +208,6 @@ STBIWDEF void stbi_flip_vertically_on_write(int flip_boolean);
 #endif
 
 #ifndef STBI_WRITE_NO_STDIO
-#include <stdio.h>
 #include <cstdio>
 #endif // STBI_WRITE_NO_STDIO
 
